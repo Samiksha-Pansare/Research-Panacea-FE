@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Research-Panacea-FE/static/css/main.fe2290df.css",
+    "main.js": "/Research-Panacea-FE/static/js/main.3e8125ad.js",
+    "static/js/787.d9a5e09b.chunk.js": "/Research-Panacea-FE/static/js/787.d9a5e09b.chunk.js",
+    "static/media/techfest.png": "/Research-Panacea-FE/static/media/techfest.99418c6b6a8495caa4c7.png",
+    "static/media/bg-color.png": "/Research-Panacea-FE/static/media/bg-color.dd2e8000c5ef730ea3aa.png",
+    "static/media/light-bg.png": "/Research-Panacea-FE/static/media/light-bg.7054a6bb0c4eaa66918f.png",
+    "static/media/collab.svg": "/Research-Panacea-FE/static/media/collab.832a519223ed7723568b23abccf9084c.svg",
+    "static/media/analysis.jpeg": "/Research-Panacea-FE/static/media/analysis.58bc797d5aedafcb3364.jpeg",
+    "static/media/philosophy.jpeg": "/Research-Panacea-FE/static/media/philosophy.84843badc215d2c495ef.jpeg",
+    "static/media/maths.jpeg": "/Research-Panacea-FE/static/media/maths.a00e53988b5c7b7a8410.jpeg",
+    "static/media/log.svg": "/Research-Panacea-FE/static/media/log.cd046e1a495c96cce5951c2e227306cf.svg",
+    "static/media/research-paper2.jpeg": "/Research-Panacea-FE/static/media/research-paper2.75d870610d9213904660.jpeg",
+    "static/media/register.svg": "/Research-Panacea-FE/static/media/register.270edb260578be66d92f3ad0f04b50ab.svg",
+    "static/media/research-paper.jpeg": "/Research-Panacea-FE/static/media/research-paper.886308817ed6289a1931.jpeg",
+    "static/media/research-paper3.jpeg": "/Research-Panacea-FE/static/media/research-paper3.f47aa170ef1337de818d.jpeg",
+    "static/media/calender.svg": "/Research-Panacea-FE/static/media/calender.5b483d9641407b1f9bbf9c4e631f0c27.svg",
+    "index.html": "/Research-Panacea-FE/index.html",
+    "main.fe2290df.css.map": "/Research-Panacea-FE/static/css/main.fe2290df.css.map",
+    "main.3e8125ad.js.map": "/Research-Panacea-FE/static/js/main.3e8125ad.js.map",
+    "787.d9a5e09b.chunk.js.map": "/Research-Panacea-FE/static/js/787.d9a5e09b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe2290df.css",
+    "static/js/main.3e8125ad.js"
+  ]
+}
