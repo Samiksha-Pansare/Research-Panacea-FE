@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../Css/UpcomingConferences.css';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Techfest from '../Images/techfest.png'
+import Techfest from '../Images/techfest.png';
+import { Link } from 'react-router-dom'
 export default class UpcomingConferences extends Component {
     constructor(props) {
         super(props);
@@ -258,7 +259,9 @@ export default class UpcomingConferences extends Component {
                 
                     <div className="col-md-8">
                         <img className="img-fluid" src={Techfest} alt=""/>
-                        <div className="button-link">Link</div>
+                        <Link to={"/"}>
+                            <div className="button-link">Link</div>
+                        </Link>
                     </div>
                 
                     <div className="col-md-4">                        

@@ -32,8 +32,13 @@ export default class Collabreq extends Component {
             <div className="blog-footer">
                 <ul>
                 <li className="published-date">12 days ago</li>
-                <li className="shares">
-                    <button type="button" className=" btn btn-con" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply</button>
+                
+                    <Link to={"/collabdet"}>
+                    <button type="button" className=" btn btn-con" data-bs-toggle="modal" >See Details</button>
+                    </Link>
+                
+                    
+                    
                     {/* <!-- Button trigger modal -->
                     
                     
@@ -103,7 +108,7 @@ export default class Collabreq extends Component {
                         </div>
                     </div>
                             {/* </Modal> */}
-                </li>
+                
                 </ul>
             </div>
             </div>

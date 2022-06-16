@@ -62,8 +62,7 @@ export default class Navbar extends Component {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                      <li><Link className="dropdown-item" to={'/academiceve'}>Academic Events</Link></li>
                      <li><Link className="dropdown-item" to={'/upcomingconf'}>Upcoming Conferences</Link></li>
-                     <li><hr className="dropdown-divider"/></li>
-                     <li><Link className="dropdown-item" to={'/'}>Something else here</Link></li>
+                     
                 </ul>
                 </li>
                 <li className="nav-item dropdown">

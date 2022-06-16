@@ -4,39 +4,7 @@ body{
 	background: url('../images/bg-color.png');
 	background-size: cover;
 }
-/* NavBar */
-.navbar 
-{
-	background-color: transparent ;
-}
 
-.navbar-fixed-top.scrolled {
-    background-color: #fff;
-    transition: background-color 200ms linear;
-  }
-.navbar-btn
-{
-	border-radius: 0%;
-	margin: 10px;
-	background-color: #ffffff;
-	font-size: 20;
-	width: 120pt;
-	height: 38pt;
-}
-.navbar-brand
-{
-	font-family: 'Abril Fatface', cursive !important;
-	font-size: 40pt !important;
-}
-.second-nav
-{
-	background-color: transparent !important;
-	color: #000000;
-}
-.first-menu
-{
-	display: none;
-}
 /* Image */
 .card-img-top {
   opacity: 1;
@@ -572,20 +540,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 		background: url('../images/bg-color.png');
 		background-size:contain;
 	}
-	.navbar
-	{
-		background-image: url('../Images/light-bg.png') !important;
-	}
-	.navbar-collapse
-	{
-		background-color: #ffffff !important;
-	
-	}
-	.navbar-brand
-	{
-		font-family: 'Redressed', cursive;
-		font-size: 20pt !important;
-	}
+
   .search__container {
     padding-left: 20px;
     padding-right: 20px;

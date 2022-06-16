@@ -6,39 +6,7 @@ body{
 	width: 100vw;
     overflow-x: hidden;
 }
-/* NavBar */
-.navbar 
-{
-	background-color: transparent ;
-}
 
-.navbar-fixed-top.scrolled {
-    background-color: #fff;
-    transition: background-color 200ms linear;
-  }
-.navbar-btn
-{
-	border-radius: 0%;
-	margin: 10px;
-	background-color: #ffffff;
-	font-size: 20;
-	width: 120pt;
-	height: 38pt;
-}
-.navbar-brand
-{
-	font-family: 'Abril Fatface', cursive !important;
-	font-size: 40pt !important;
-}
-.second-nav
-{
-	background-color: transparent !important;
-	color: #000000;
-}
-.first-menu
-{
-	display: none;
-}
 
 .btn-web{
     height: 50px !important;
@@ -332,20 +300,6 @@ tbody tr:hover {
 		background: url('../images/bg-color.png');
 		background-size:contain;
 	}
-	.navbar
-	{
-		background-image: url('../Images/light-bg.png') !important;
-	}
-	.navbar-collapse
-	{
-		background-color: #ffffff !important;
-	
-	}
-	.navbar-brand
-	{
-		font-family: 'Redressed', cursive;
-		font-size: 20pt !important;
-	}
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 768px)
@@ -354,19 +308,5 @@ tbody tr:hover {
 		/* background-image: radial-gradient(circle, #ffffff, #f1ebf5, #e8d6e8, #e4c1d5, #e0abbe); */
 		background: url('../images/bg-color.png');
 		background-size:contain;
-	}
-	.navbar
-	{
-		background-image: url('../Images/light-bg.png') !important;
-	}
-	.navbar-collapse
-	{
-		background-color: #ffffff !important;
-	
-	}
-	.navbar-brand
-	{
-		font-family: 'Redressed', cursive;
-		font-size: 20pt !important;
 	}
 }

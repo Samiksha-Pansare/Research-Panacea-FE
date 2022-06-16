@@ -18,6 +18,7 @@ import Collaborators from './Components/Collaborators';
 import Collabreq from './Components/Collabreq';
 import Collabdetails from './Components/Collabdetails';
 import Recommend from './Components/Recommend';
+import Eventdetails from './Components/Eventdetails';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/upcomingconf" element={<><Navbar/><UpcomingConferences/></>}/>
           <Route exact path="/chat" element={<><Navbar/><Chat/></>}/>
           <Route exact path="/academiceve" element={<><Navbar/><AcademicEvents/></>}/>
+          <Route exact path="/eventdet" element={<><Navbar/><Eventdetails/></>}/>
           <Route exact path="/collaborators" element={<><Navbar/><Collaborators/></>}/>
           <Route exact path="/collabreq" element={<><Navbar/><Collabreq/></>}/>
           <Route exact path="/collabdet" element={<><Navbar/><Collabdetails/></>}/>

@@ -15,16 +15,16 @@ export default class Collabdetails extends Component {
             </div>
             <div className="blog-body">
                 <div className="blog-title">
-                <h1><a href="#">Looking for a UI/UX Enthusiast</a></h1>
+                <h1><a to={"#"}>Looking for a UI/UX Enthusiast</a></h1>
                 </div>
                 <div className="blog-summary">
                 <p>Here is an example of a post without a cover image. You don't always have to have a cover image. In fact, leaving them out from time to time and disrupt the predictive flow and make the overall design more interesting. Something to think about.</p>
                 </div>
                 <div className="blog-tags">
                 <ul>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">web dev</a></li>
-                    <li><a href="#">css</a></li>
+                    <li><a to={"#"}>design</a></li>
+                    <li><a to={"#"}>web dev</a></li>
+                    <li><a to={"#"}>css</a></li>
                 </ul>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default class Collabdetails extends Component {
                 <p></p>
                 <ul>
                 <li className="published-date">12 days ago</li>
-                {/* <!-- <li className="comments"><a href="#"><svg className="icon-bubble"><i className='fa-fa-heart'></i></svg><span className="numero">8</span></a></li> --> */}
+                {/* <!-- <li className="comments"><a to="#"><svg className="icon-bubble"><i className='fa-fa-heart'></i></svg><span className="numero">8</span></a></li> --> */}
                 <li className="shares">
                     
                 </li>
@@ -78,25 +78,25 @@ export default class Collabdetails extends Component {
                                                             <div className="row">
                                                                 <div className="col-md-12">
                                                                     <div className="form-group">
-                                                                        <label for="CV" className="form-label">CV</label>
+                                                                        <label htmlFor="CV" className="form-label">CV</label>
                                                                         <input className="form-control" type="file" id="CV"/>
                                                                       </div>
                                                                 </div>
                                                                 <div className="col-md-12">
                                                                     <div className="form-group">                               
-                                                                            <label for="CL" className="form-label">Cover Letter</label>
+                                                                            <label htmlFor="CL" className="form-label">Cover Letter</label>
                                                                             <input className="form-control" type="file" id="CL"/>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div className="row">
                                                                 <div className="col-md-12">
-                                                                    <div className="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" className="form-control" placeholder="email *" required="required" data-error="Valid email is required."/> </div>
+                                                                    <div className="form-group"> <label htmlFor="form_email">Email *</label> <input id="form_email" type="email" name="email" className="form-control" placeholder="email *" required="required" data-error="Valid email is required."/> </div>
                                                                 </div>                                                            
                                                             </div>
                                                             <div className="row">
                                                                 <div className="col-md-12">
-                                                                    <div className="form-group"> <label for="form_proposal">Proposal *</label> <textarea id="form_proposal" name="Proposal" className="form-control" placeholder="Write your proposal here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>                                                               
+                                                                    <div className="form-group"> <label htmlFor="form_proposal">Proposal *</label> <textarea id="form_proposal" name="Proposal" className="form-control" placeholder="Write your proposal here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>                                                               
                                                                 </div>
                                                                 
                                                             </div>
@@ -128,17 +128,17 @@ export default class Collabdetails extends Component {
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-md-12 text-center">
-                <h2 className="footer-heading"><a href="#" className="logo">Research Panachea</a></h2>
+                <h2 className="footer-heading"><a to={"#"} className="logo">Research Panachea</a></h2>
                 <p className="menu">
-                  <Link href="#">Home</Link>
-                  <Link href="#">Research Paper</Link>
-                  <Link href="#">Collaborators</Link>
-                  <Link href="#">Profile</Link>
+                  <Link to={"#"}>Home</Link>
+                  <Link to={"#"}>Research Paper</Link>
+                  <Link to={"#"}>Collaborators</Link>
+                  <Link to={"#"}>Profile</Link>
                 </p>
                 <ul className="ftco-footer-social p-0">
-                    <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span className="fab fa-twitter"></span></a></li>
-                    <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span className="ion-logo-facebook"><i className="fab fa-facebook"></i></span></a></li>
-                    <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span className="fab fa-instagram"></span></a></li>
+                    <li className="ftco-animate"><a to={"#"} data-toggle="tooltip" data-placement="top" title="Twitter"><span className="fab fa-twitter"></span></a></li>
+                    <li className="ftco-animate"><a to={"#"} data-toggle="tooltip" data-placement="top" title="Facebook"><span className="ion-logo-facebook"><i className="fab fa-facebook"></i></span></a></li>
+                    <li className="ftco-animate"><a to={"#"} data-toggle="tooltip" data-placement="top" title="Instagram"><span className="fab fa-instagram"></span></a></li>
                 </ul>
             </div>
         </div>

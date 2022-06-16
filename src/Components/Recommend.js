@@ -11,8 +11,8 @@ export default class Recommend extends Component {
     return (
       <>
       {/* <!-- Main Content goes here --> */}
-        <div className="container" style="margin-top: 85px;">
-          <h3  className=" text-170 text-600  letter-spacing" style="text-align: center;">Collabs you might like</h3>
+        <div className="container b-container">
+          <h3  className=" text-170 text-600 tacenter letter-spacing">Collabs you might like</h3>
             <div className="mt-0">
                   <div className="d-style btn btn-brc-tp border-2 bgc-white btn-outline-blue btn-h-outline-blue btn-a-outline-blue w-100 my-2 py-3 shadow-sm">
                     {/* <!-- Basic Plan --> */}
@@ -36,7 +36,7 @@ export default class Recommend extends Component {
 
                         </li>
             
-                        <li className="mt-25 skilllist" style="margin-bottom: 12px;">
+                        <li className="mt-25 skilllist">
                           <span className="text-110 skillspan">
                             Creativity
                         </span>
@@ -79,7 +79,7 @@ export default class Recommend extends Component {
 
                         </li>
             
-                        <li className="mt-25 skilllist" style="margin-bottom: 12px;">
+                        <li className="mt-25 skilllist">
                           <span className="text-110 skillspan">
                             Creativity
                         </span>
@@ -121,7 +121,7 @@ export default class Recommend extends Component {
 
                         </li>
             
-                        <li className="mt-25 skilllist" style="margin-bottom: 12px;">
+                        <li className="mt-25 skilllist">
                           <span className="text-110 skillspan">
                             Creativity
                         </span>
@@ -143,9 +143,9 @@ export default class Recommend extends Component {
             <div id="show-more">SHOW MORE</div>
             <hr/>
             <div className="container mt-5">
-              <h3  className=" text-170 text-600  letter-spacing" style="text-align: center;">Research Papers you might like</h3>
+              <h3  className=" text-170 text-600 headtext letter-spacing">Research Papers you might like</h3>
               <div className="row">
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext">
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src={paper1} width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Publication Name</span><span className="text-black-50">Domain: Block Chain</span>  </div>
@@ -154,7 +154,7 @@ export default class Recommend extends Component {
                           <div className="d-flex justify-content-between install mt-3"><span>Saved 172 times</span><span className="text-primary">View&nbsp;<i className="fa fa-angle-right"></i></span></div>
                       </div>
                   </div>
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext">
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src={paper2} width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Mailchimp</span><span className="text-black-50">Project Management</span>  </div>
@@ -163,7 +163,7 @@ export default class Recommend extends Component {
                           <div className="d-flex justify-content-between install mt-3"><span>Saved 1234 times</span><span className="text-primary">View&nbsp;<i className="fa fa-angle-right"></i></span></div>
                       </div>
                   </div>
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext">
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src={paper3} width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Dropbox</span><span className="text-black-50">File Management</span>  </div>
@@ -172,7 +172,7 @@ export default class Recommend extends Component {
                           <div className="d-flex justify-content-between install mt-3"><span>Saved 1234 times</span><span className="text-primary">View&nbsp;<i className="fa fa-angle-right"></i></span></div>
                       </div>
                   </div>
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext">
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src={paper1} width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Shopify</span><span className="text-black-50">Ecommerce</span>  </div>
@@ -181,7 +181,7 @@ export default class Recommend extends Component {
                           <div className="d-flex justify-content-between install mt-3"><span>Saved 1234 times</span><span className="text-primary">View&nbsp;<i className="fa fa-angle-right"></i></span></div>
                       </div>
                   </div>
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext" >
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src="../static/images/research-paper2.jpeg" width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Atlassian</span><span className="text-black-50">Project management</span>  </div>
@@ -190,7 +190,7 @@ export default class Recommend extends Component {
                           <div className="d-flex justify-content-between install mt-3"><span>Saved 345 times</span><span className="text-primary">View&nbsp;<i className="fa fa-angle-right"></i></span></div>
                       </div>
                   </div>
-                  <div className="col-md-4" style="margin-top: 27px">
+                  <div className="col-md-4 paratext">
                       <div className="card p-3 bgc-white">
                           <div className="d-flex flex-row mb-3"><img src="../static/images/research-paper3.jpeg" width="70"/>
                               <div className="d-flex flex-column ml-2"><span>Salesforce</span><span className="text-black-50">Project management</span>  </div>
@@ -206,7 +206,7 @@ export default class Recommend extends Component {
            
             <section className="container py-5">
               <div className="row pt-3">
-                <h3  className=" text-170 text-600  letter-spacing" style="text-align: center;">People you may know</h3>
+                <h3  className=" text-170 text-600 headtext letter-spacing">People you may know</h3>
                   {/* <!--   Profile Card--> */}
                   <div className="col-lg-3 col-sm-6 mb-30 pb-2">
                     <div className="team-card-style-3 mx-auto  bgc-white">
@@ -214,7 +214,7 @@ export default class Recommend extends Component {
                         </div>
                         <h4 className="team-name">William Smith</h4><a className="team-contact-link" href="#">Domain</a><a className="team-contact-link" href="#">Projects: 30</a>
                         <br/>
-                        <button className="btn " style="background-color: #AB72F3; color: white;">Connect</button>
+                        <button className="btn connect-btn">Connect</button>
                     </div>
                 </div>
                   {/* <!--   Profile Card--> */}
@@ -224,7 +224,7 @@ export default class Recommend extends Component {
                         </div>
                         <h4 className="team-name">William Smith</h4><a className="team-contact-link" href="#">Domain</a><a className="team-contact-link" href="#">Projects: 30</a>
                         <br/>
-                        <button className="btn " style="background-color: #AB72F3; color: white;">Connect</button>
+                        <button className="btn connect-btn">Connect</button>
                     </div>
                 </div>
                   {/* <!--   Profile Card--> */}
@@ -234,7 +234,7 @@ export default class Recommend extends Component {
                         </div>
                         <h4 className="team-name">William Smith</h4><a className="team-contact-link" href="#">Domain</a><a className="team-contact-link" href="#">Projects: 30</a>
                         <br/>
-                        <button className="btn " style="background-color: #AB72F3; color: white;">Connect</button>
+                        <button className="btn connect-btn">Connect</button>
                     </div>
                 </div>
                   {/* <!--   Profile Card--> */}
@@ -244,12 +244,12 @@ export default class Recommend extends Component {
                           </div>
                           <h4 className="team-name">William Smith</h4><a className="team-contact-link" href="#">Domain</a><a className="team-contact-link" href="#">Projects: 30</a>
                           <br/>
-                          <button className="btn " style="background-color: #AB72F3; color: white;">Connect</button>
+                          <button className="btn connect-btn">Connect</button>
                       </div>
                   </div>
               </div>
           </section>
-          <div id="show-more" style="margin-bottom:10px;">SHOW MORE</div>
+          <div id="show-more">SHOW MORE</div>
           
 <footer className="footer-07">
     <div className="container">

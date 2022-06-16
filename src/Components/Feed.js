@@ -69,9 +69,9 @@ export default class Feed extends Component {
             <div className='container   '>
                
                 <div className="">
-                  <div className="tab-panels">
+                  <div className="">
                               <div id="marzen" className="tab-panel">
-                                <div className="blog-container">        
+                                <div className="add-container">        
                                     <div className="write-post-container ">
                                             <div className="add-post-links">
                                                 <Link to="#"><button type="button" className=" btn btn-add" data-bs-toggle="modal"><i className="fa fa-plus"></i> Event</button></Link>
@@ -88,7 +88,7 @@ export default class Feed extends Component {
             <div className='container   '>
                
               <div className=" ">
-                <div className="tab-panels">
+                <div className="">
                             <div id="marzen" className="tab-panel">
                         <div className="blog-card alt">
                             <div className="meta">
@@ -125,9 +125,9 @@ export default class Feed extends Component {
                 <div className='container   '>
                
                     <div className=" ">
-                      <div className="tab-panels">
-                                  <div id="marzen" className="tab-panel">
-                                    <div className="blog-container ">        
+                      <div className="">
+                                  <div id="" className="">
+                                    <div className="container blg-container">        
                                         <div className="blog-header">
                                             <div className="blog-author--no-cover">
                                                 <h3>Russ Beye</h3>
@@ -151,11 +151,11 @@ export default class Feed extends Component {
                                         <div className="blog-footer">
                                             <ul>
                                             <li className="published-date">12 days ago</li>
-                                            <li className="comments"><Link to="#"><button type="button" className=" btn  btn-light" data-bs-toggle="modal"><i className="fa fa-bookmark"></i> Save</button></Link></li>
-                                            <li className="shares">
+                                            <li className="comments"><Link to="#"><button type="button" className=" btn  btn-con" data-bs-toggle="modal"><i className="fa fa-bookmark"></i> Save</button></Link></li>
+                                            
                                                 <button type="button" className=" btn btn-con" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button>
                                                 {/* <!-- Button trigger modal --> */}
-                                            </li>
+                                            
                                             </ul>
                                         </div>
                                         </div>

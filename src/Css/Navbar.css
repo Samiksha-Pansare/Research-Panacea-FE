@@ -7,7 +7,8 @@ html {
   
 .navbar 
 {
-	background-color:#f8f4fa;
+	/* background-color:(255,255,255,0.6); */
+	background-color: #f8f4fa !important;
 }
 .navbar-btn
 {
@@ -31,6 +32,10 @@ html {
 .first-menu
 {
 	display: none;
+}
+.navbar-toggler{
+ border: none;
+ background-color: transparent;
 }
 .second-menu
 {
