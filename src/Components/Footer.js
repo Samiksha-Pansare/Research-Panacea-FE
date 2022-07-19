@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../Css/footer.css';
+import {Link} from "react-router-dom";
+
 
 export default class Footer extends Component {
   render() {
@@ -11,12 +13,9 @@ export default class Footer extends Component {
 					<div className="col-md-12 text-center">
 						<h2 className="footer-heading"><a href="#" className="logo">Research Panachea</a></h2>
 						<p className="menu">
-							<a href="#">Home</a>
-							<a href="#">Agent</a>
-							<a href="#">About</a>
-							<a href="#">Listing</a>
-							<a href="#">Blog</a>
-							<a href="#">Contact</a>
+							<Link  to='/research'>Papers</Link>
+							<Link  to={'/academiceve'}>Events</Link>
+							<Link  to={'/feed'}>Feed</Link>
 						</p>
 						<ul className="ftco-footer-social p-0">
               <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span className="fab fa-twitter"></span></a></li>
