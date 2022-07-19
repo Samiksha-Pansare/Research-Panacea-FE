@@ -216,9 +216,17 @@ a{
   padding: 0%;
   margin-bottom: 30vh;
   box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
 }
 .feature-card > .card-body{
 	padding: 0%;
+	border-top-left-radius: 40px !important;
+	border-top-right-radius: 40px !important;
+	border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
 }
 .header-orange{
 	margin-top:0%;
